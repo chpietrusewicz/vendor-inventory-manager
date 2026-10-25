@@ -1,4 +1,4 @@
-export type Page = 'dashboard' | 'buy' | 'sell' | 'trade' | 'inventory' | 'settings'
+export type Page = 'dashboard' | 'make-transaction' | 'sell' | 'inventory' | 'settings'
 export type Card = {
   name: string
   set: string

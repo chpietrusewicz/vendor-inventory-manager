@@ -2,9 +2,8 @@ import type { Page } from '../types'
 
 const navItems: { id: Page; label: string; icon: string }[] = [
   { id: 'dashboard', label: 'Dashboard', icon: '⌂' },
-  { id: 'buy', label: 'Buy', icon: '＋' },
+  { id: 'make-transaction', label: 'Make transaction', icon: '↔' },
   { id: 'sell', label: 'Sell', icon: '$' },
-  { id: 'trade', label: 'Trade', icon: '↔' },
   { id: 'inventory', label: 'Inventory', icon: '▣' },
 ]
 
